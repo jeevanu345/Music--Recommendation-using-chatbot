@@ -1,2 +1,15 @@
-# Music--Recommendation-using-chatbot
-Of course. Here is a GitHub README.md description for your music recommendation system, without any emojis.  AI Music Recommendation System A simple yet powerful music recommendation system built with Python and Flask. This application provides song suggestions based on user input and includes an API to collect user feedback, which can be used to refine future recommendations.  Features AI-Powered Recommendations: Leverages a recommendation model to suggest songs based on user input.  User Feedback Loop: Users can submit feedback (e.g., "like" or "dislike") for recommended songs.  Feedback History: All feedback is stored in a SQLite database and can be retrieved via an API endpoint.  RESTful API: A clean and simple API built with Flask.  CORS Enabled: Ready for integration with a frontend web application.  Tech Stack Backend: Python, Flask  Database: SQLite  Recommendation Engine: recommendation_model.py (your custom model logic)
+# Music Recommendation Chatbot Frontend
+
+This is the frontend for the Music Recommendation Chatbot.
+
+## Features
+- Chat interface to interact with the chatbot.
+- Responsive design.
+- Fetches recommendations from the backend.
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd frontend
